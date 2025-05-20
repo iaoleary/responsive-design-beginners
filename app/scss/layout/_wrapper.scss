@@ -1,0 +1,7 @@
+@use '../util' as u;
+
+.wrapper {
+  //mainly for mobile syles,   max width of website content
+  width: min(100% - u.rem(48), u.rem(1200)); //
+  margin-inline: auto; //center content on website
+}
