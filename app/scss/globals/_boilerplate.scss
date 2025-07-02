@@ -22,6 +22,12 @@ body {
   //justify-content: center;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .visually-hidden {
   position: absolute;
   left: -10000px;
